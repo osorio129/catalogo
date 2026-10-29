@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Productos</title>
+</head>
+<body>
+
+    <!-- Encabezado del Catálogo -->
+    <header>
+        <h1>Nombre de la Tienda / Catálogo</h1>
+        <p>Encuentra los mejores productos a los mejores precios</p>
+    </header>
+
+    <!-- Barra de Búsqueda y Filtros de Categorías -->
+    <section id="filtros">
+        <form action="#" method="GET">
+            <input type="text" name="buscar" placeholder="Buscar productos...">
+            
+            <label for="categoria">Categoría:</label>
+            <select name="categoria" id="categoria">
+                <option value="todas">Todas las categorías</option>
+                <option value="categoria-1">Categoría 1</option>
+                <option value="categoria-2">Categoría 2</option>
+                <option value="categoria-3">Categoría 3</option>
+            </select>
+
+            <button type="submit">Filtrar</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <!-- Sección Principal del Catálogo (Cuadrícula de Productos) -->
+    <main>
+        <section id="catalogo-productos">
+            <h2>Nuestros Productos</h2>
+
+            <!-- Producto 1 -->
+            <article class="producto">
+                <img src="/chaqueta.jpeg" alt="Imagen del Producto 1">
+                <h3>Chaqueta de Jean Clásica</h3>
+                <p>Chaqueta en de jean de alta durabilidad con corte atemporal y ajuste cómodo. Cuenta con cierre frontal de botones metálicos, bolsillos funcionales en el pecho y bolsillos laterales. Ideal para crear outfits casuales, versátiles y de uso diario.</p>
+                <p><strong>Precio:</strong> $50.000 COP</p>
+                <button type="button">Ver Detalles</button>
+                <button type="button">Añadir al Carrito</button>
+            </article>
+
+            <hr>
+
+            <!-- Producto 2 -->
+            <article class="producto">
+                <img src="/botas.jpeg" alt="Imagen del Producto 2">
+                <h3>Botas de Cuero Urbanas</h3>
+                <p>Botas elaboradas con materiales resistentes y acabados de alta calidad. Diseñadas con suela antideslizante de excelente tracción, plantilla acolchada para máxima comodidad al caminar y ajuste seguro por cordones. Perfectas para un estilo moderno, resistente y con personalidad.</p>
+                <p><strong>Precio:</strong> $85.000 COP</p>
+                <button type="button">Ver Detalles</button>
+                <button type="button">Añadir al Carrito</button>
+            </article>
+
+            <hr>
+
+            <!-- Producto 3 -->
+            <article class="producto">
+                <img src="/tenis.jpeg" alt="Imagen del Producto 3">
+                <h3>Tennis Deportivos Casuales</h3>
+                <p>Descripción breve del producto, sus características principales o especificaciones.</p>
+                <p><strong>Precio:</strong> $120.000 COP</p>
+                <button type="button">Ver Detalles</button>
+                <button type="button">Añadir al Carrito</button>
+            </article>
+
+        </section>
+    </main>
+
+    <hr>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>&copy; 2026 Todos los derechos reservados.</p>
+        <p>Contacto: contacto@ejemplo.com | Teléfono: +57 300 000 0000</p>
+    </footer>
+
+</body>
+</html>
